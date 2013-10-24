@@ -5,7 +5,7 @@ The Eclipse Workspace Preferences Transferrer extends [Eclipse's Switch Workspac
 ## Quick Start
 ### Installation
 
-TODO #1
+Issue #2 - TODO
 
 ### Usage
 1. <tt>File → Switch Workspace → Other…</tt>
