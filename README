@@ -1,0 +1,48 @@
+_________________________
+CHECKOUT AND DEVENV SETUP
+
+Prerequisites
+- JDK 1.6.0
+- Eclipse SDK >= 3.5.0
+- Apache Maven >= 3.0.3 
+- Python >= 2.7 (to make releases only)
+
+In Eclipse checkout:
+- https://svn.codespot.com/a/eclipselabs.org/wsprefs-transferrer/trunk/org.eclipselabs.wsprefs.transferrer.ui
+- https://svn.codespot.com/a/eclipselabs.org/wsprefs-transferrer/trunk/org.eclipselabs.wsprefs.transferrer.feature
+- https://svn.codespot.com/a/eclipselabs.org/wsprefs-transferrer/trunk/org.eclipselabs.wsprefs.transferrer.updatesite
+
+
+______________
+RELEASE HOW TO
+
+- Checkout
+  - checkout https://svn.codespot.com/a/eclipselabs.org/wsprefs-transferrer/releases ($RELDIR)
+  - adapt repository config in parent pom if necessary
+  - checkout https://svn.codespot.com/a/eclipselabs.org/wsprefs-transferrer/updatesite ($SITEDIR)
+
+- Disable CI Build
+
+- OSGi version hacking
+  - run prepare_rel.py
+  - commit
+
+- Release
+  - checkout https://svn.codespot.com/a/eclipselabs.org/wsprefs-transferrer
+  - cd wsprefs-transferrer
+  - mvn release:prepare release:perform -Dusername=googleUser -Dpassword=googleSvnPassword
+  - commit all changes in $RELDIR
+  - remove all files from $SITEDIR
+  - unzip $RELDIR/org/eclipselabs/wsprefs/transferrer/org.eclipselabs.wsprefs.transferrer.updatesite/$VERSION/\
+    org.eclipselabs.wsprefs.transferrer.updatesite-$VERSION-site.zip to $SITEDIR
+  - commit all changes in $SITEDIR
+
+- More OSGi version hacking
+  - run prepare_dev.py
+  - commit
+
+- Enable CI build
+
+- Test installation from https://svn.codespot.com/a/eclipselabs.org/wsprefs-transferrer/updatesite
+
+- Update version in Eclipse Marketplace 

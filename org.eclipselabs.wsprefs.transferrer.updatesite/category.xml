@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipselabs.wsprefs.transferrer.feature_3.0.4.qualifier.jar" id="org.eclipselabs.wsprefs.transferrer.feature" version="3.0.4.qualifier">
+      <category name="org.eclipselabs.wsprefs.transferrer.category"/>
+   </feature>
+   <category-def name="org.eclipselabs.wsprefs.transferrer.category" label="Workspace Preferences Transferrer"/>
+</site>
