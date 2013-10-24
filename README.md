@@ -4,7 +4,7 @@ The Eclipse Workspace Preferences Transferrer extends [Eclipse's Switch Workspac
 
 ## Quick Start
 ### Installation
-- On some platforms, you can drag this button into your Eclipse: <a href='http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=20208' title='Drag and drop into a running Eclipse Indigo workspace to install Workspace Preferences Transferrer'><img src='http://marketplace.eclipse.org/misc/installbutton.png'/></a>
+- On some platforms, you can drag this button into your Eclipse install dialog: <a href='http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=20208' title='Drag and drop into a running Eclipse Indigo workspace to install Workspace Preferences Transferrer'><img src='http://marketplace.eclipse.org/misc/installbutton.png'/></a>
 - Or install using the [Eclipse Marketplace Client](http://marketplace.eclipse.org/content/workspace-preferences-transferrer)
 - Or install from this update site [http://pellaton.github.io/wsprefs-transferrer/](http://pellaton.github.io/wsprefs-transferrer/)
 
