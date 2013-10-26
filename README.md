@@ -1,10 +1,10 @@
 #![Screenshot](/img/logo.png) Eclipse wsprefs-transferrer
 
-The Eclipse Workspace Preferences Transferrer extends [Eclipses Switch Workspace feature](http://help.eclipse.org/indigo/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-workspaceswitch.htm) to copy all preferences from the current workspace to another one. 
+The Eclipse Workspace Preferences Transferrer extends the [Eclipses Switch Workspace feature](http://help.eclipse.org/indigo/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-workspaceswitch.htm) to copy all preferences from the current workspace to another one.
 
 ## Quick Start
 ### Installation
-- On some platforms, you can drag this button into your Eclipse install dialog: <a href='http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=20208' title='Drag and drop into a running Eclipse Indigo workspace to install Workspace Preferences Transferrer'><img src='http://marketplace.eclipse.org/misc/installbutton.png'/></a>
+- On some platforms, you can drag this button into your Eclipse installation dialog: <a href='http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=20208' title='Drag and drop into a running Eclipse Indigo workspace to install Workspace Preferences Transferrer'><img src='http://marketplace.eclipse.org/misc/installbutton.png'/></a>
 - Or install using the [Eclipse Marketplace Client](http://marketplace.eclipse.org/content/workspace-preferences-transferrer)
 - Or install from this update site [http://pellaton.github.io/wsprefs-transferrer/](http://pellaton.github.io/wsprefs-transferrer/)
 
