@@ -18,8 +18,7 @@ The Eclipse Workspace Preferences Transferrer extends the [Eclipses Switch Works
 ![Screenshot](/img/wsprefs.png)
 
 ## Internals
-This Eclipse plug-in does exactly the same as if the user did a preferences export into a file in 
-the current workspace and a preferences import in the other one. The functionality is split into two steps:
+This Eclipse plug-in does exactly the same as if the user did a preferences export into a file in the current workspace and a preferences import in the other one. The functionality is split into two steps:
 
 ### Export Step
 - The preferences are exported into the file ```$NEW_WORKSPACE/.wsprefs```
